@@ -1,6 +1,6 @@
 // Sophia Franke - 23030
 // Laboratorio 3: Contador Manual y Automático con Alarma
-// Fecha: 2023-10-30 
+// Fecha: 2025-08-08 
 #include <Arduino.h>
 
 // ─────── ❥ ⊱ Definición de Pines ⊰ ❥ ───────
@@ -182,4 +182,5 @@ void mostrarAuto(uint8_t valor) {
   digitalWrite(LEDC, (valor >> 2) & 0x01);
   digitalWrite(LEDD, (valor >> 3) & 0x01);
 }
+
 // ─────── ❥ ⊱ Fin del Código ⊰ ❥ ───────
